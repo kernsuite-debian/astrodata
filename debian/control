@@ -1,0 +1,17 @@
+Source: astrodata
+Section: science
+Priority: extra
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: cmake,
+ debhelper (>=9),
+ libisautils,
+ libhdf5-dev,
+ psrdada
+Standards-Version: 3.9.8
+Homepage: https://github.com/AA-ALERT/AstroData
+
+Package: astrodata
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Set of C++ classes to operate on radio astronomical data.

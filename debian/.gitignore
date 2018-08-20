@@ -1,0 +1,6 @@
+.debhelper/
+astrodata.debhelper.log
+astrodata.substvars
+astrodata/
+compat
+
