@@ -1,3 +1,10 @@
+astrodata (3.1.1-2) bionic; urgency=medium
+
+  [ Gijs Molenaar ]
+  * enable psrdada and lofar
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 20 Aug 2018 16:45:44 +0200
+
 astrodata (3.1.1-1) bionic; urgency=low
 
   * Initial release.
