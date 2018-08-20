@@ -2,3 +2,6 @@
 
 %:
 	dh $@  --buildsystem cmake  --parallel
+
+override_dh_auto_configure:
+	CXXFLAGS=-I/usr/include/hdf5/serial LOFAR=true PSRDADA=true dh_auto_configure 
